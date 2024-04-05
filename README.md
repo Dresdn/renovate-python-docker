@@ -1,1 +1,1 @@
-# renovate-python-docker
+# renovate-python
