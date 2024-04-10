@@ -7,6 +7,12 @@
     {
       "matchDepNames": ["python"],
       "allowedVersions": "<=3.11"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["python"],
+      "versionCompatibility": "^(?<version>[^-]+)(?<compatibility>-.*)?$",
+      "versioning": "python"
     }
   ]
 }
